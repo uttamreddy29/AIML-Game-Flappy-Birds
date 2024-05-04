@@ -204,7 +204,7 @@ def main(genomes, config):
     while run and len(birds) > 0:
         clock.tick(30)
 
-        for event in pygame.event.get():
+        for event in pygame.event.get(): 
             if event.type == pygame.QUIT:
                 run = False
                 pygame.quit()
@@ -219,7 +219,7 @@ def main(genomes, config):
             run = False
             break
 
-        # give each bird a fitness of 0.1 for each frame it stays alive
+
         for x, bird in enumerate(birds):
             ge[x].fitness += 0.1
             bird.move()
