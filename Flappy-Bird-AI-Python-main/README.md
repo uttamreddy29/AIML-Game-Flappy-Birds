@@ -6,12 +6,6 @@ This project is a Python implementation of the classic Flappy Bird game using th
 
 ## Features
 
-### Non-AI Version:
-
-- Classic Flappy Bird gameplay where the player controls the bird's altitude by tapping the spacebar.
-- Simple and intuitive controls suitable for players of all ages.
-- Basic graphics and sound effects faithful to the original game.
-
 ### AI Version:
 
 - Utilizes NEAT, a genetic algorithm for evolving artificial neural networks, to train the bird to play the game autonomously.
