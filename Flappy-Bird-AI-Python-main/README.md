@@ -12,6 +12,3 @@ This project is a Python implementation of the classic Flappy Bird game using th
 - The NEAT algorithm dynamically adjusts the bird's neural network, allowing it to learn and improve its performance over time.
 - Provides a fascinating demonstration of evolutionary computation in action, showcasing how AI can be trained to tackle complex tasks.
 
-## How to Run
-
-1. Clone this repository to your local machine.
